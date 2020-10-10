@@ -1,0 +1,7 @@
+- Biến session là array kết hợp
+- Có tầm vực toàn cục
+- Để xài được biến session cần dùng hàm session_start()
+- session_id trả về id của session
+- session_destroy() dùng để hủy các phần tử trong $_SESSION($_SESSION = [])
+- session_start 2 lần bị lỗi
+- phpsessionid sẽ mất đi khi tắt trình duyệt

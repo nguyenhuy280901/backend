@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+
+	<!-- <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script> -->
+</head>
+<body>
+	<form action="processRegister.php" method="POST">
+		<input type="text" placeholder="username" name="username">
+		<span class="username-error"></span>
+		<br>
+		<input type="password" placeholder="password" name="password"><br>
+		<input type="password" placeholder="retype password" name="retype-password"><br>
+		<input type="email" name="email" placeholder="email"><br>
+		<input type="text" placeholder="firstname" name="firstname"><br>
+		<input type="text" placeholder="lastname" name="lastname"><br>
+		<input type="date" placeholder="birthday" name="birthday"><br>
+		<input type="radio" name="gender" value="0" checked> Nam <br>
+		<input type="radio" name="gender" value="1"> Nữ <br>
+		<input type="radio" name="gender" value="2"> Không xác định <br>
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
